@@ -1,4 +1,7 @@
 .main {
+  color: $color-light;
+  font-family: $font-main;
+  font-size: rem(20);
   height: 100vh;
   background: rgb(252, 223, 26);
   background: linear-gradient(
@@ -8,16 +11,19 @@
     rgba(248, 71, 112, 1) 100%
   );
   &__title {
-    margin-left: 60px;
-    margin-top: 0;
+    margin: 0 0 30px 60px;
     padding-top: 50px;
-
-    font-size: rem(130);
-    font-family: $main-font;
-    color: $color-light;
+    text-transform: uppercase;
+    font-size: rem(200);
+    letter-spacing: 0.03em;
+    font-family: $font-secondary;
 
     & span {
       display: block;
+      line-height: 150px;
     }
+  }
+  &__introduction {
+    margin: 0 0 0 60px;
   }
 }
