@@ -1,0 +1,23 @@
+.main {
+  height: 100vh;
+  background: rgb(252, 223, 26);
+  background: linear-gradient(
+    156deg,
+    rgba(252, 223, 26, 1) 0%,
+    rgba(254, 149, 13, 1) 35%,
+    rgba(248, 71, 112, 1) 100%
+  );
+  &__title {
+    margin-left: 60px;
+    margin-top: 0;
+    padding-top: 50px;
+
+    font-size: rem(130);
+    font-family: $main-font;
+    color: $color-light;
+
+    & span {
+      display: block;
+    }
+  }
+}
