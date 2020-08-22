@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/App.scss';
-import FontAwesomeIcon from '/Fontawesome';
+// import FontAwesomeIcon from '/Fontawesome';
 
 function App() {
   return (
@@ -11,9 +11,34 @@ function App() {
       <p className="main__introduction">
         Why don't you find me in my social media while I fix this?
       </p>
-      <div className="main__social">
-        <FontAwesomeIcon icon={['fab', 'Instagram']} />
-      </div>
+      <ul className="main__social">
+        <li className="main__social__github">
+          <a href="http://www.github.com/miriamschaefer" alt="Visit my Github">
+            Github
+          </a>
+        </li>
+        <li className="main__social__instagram">
+          <a
+            href="http://www.instagram.com/miriamschaefer"
+            alt="Visit my Instagram"
+          >
+            Instagram
+          </a>
+        </li>
+        <li className="main__social__twitter">
+          <a
+            href="http://www.twitter.com/miriam_schaefer"
+            alt="Visit my Twitter"
+          >
+            Twitter
+          </a>
+        </li>
+        <li className="main__social__email">
+          <a href="mailto:msuarezmelian@gmail.com" alt="Email me">
+            Email me
+          </a>
+        </li>
+      </ul>
     </main>
   );
 }
