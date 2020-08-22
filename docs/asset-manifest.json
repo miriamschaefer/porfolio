@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1e835af3.chunk.css",
+    "main.js": "./static/js/main.811a1b37.chunk.js",
+    "main.js.map": "./static/js/main.811a1b37.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.787b5d83.js",
+    "runtime-main.js.map": "./static/js/runtime-main.787b5d83.js.map",
+    "static/js/2.b5c63af8.chunk.js": "./static/js/2.b5c63af8.chunk.js",
+    "static/js/2.b5c63af8.chunk.js.map": "./static/js/2.b5c63af8.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.bb9a7daa2c328b1abea0f3692d6f4634.js": "./precache-manifest.bb9a7daa2c328b1abea0f3692d6f4634.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.1e835af3.chunk.css.map": "./static/css/main.1e835af3.chunk.css.map",
+    "static/js/2.b5c63af8.chunk.js.LICENSE.txt": "./static/js/2.b5c63af8.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/leaguegothic-regular-webfont.19156af9.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.787b5d83.js",
+    "static/js/2.b5c63af8.chunk.js",
+    "static/css/main.1e835af3.chunk.css",
+    "static/js/main.811a1b37.chunk.js"
+  ]
+}
