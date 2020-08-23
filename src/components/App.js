@@ -25,7 +25,7 @@ function App() {
         <a href="http://www.twitter.com/miriam_schaefer" alt="Visit my Twitter">
           Twitter
         </a>
-        , but if you wanna get in contact, just{' '}
+        , but if you wanna get in touch, just{' '}
         <a href="mailto:msuarezmelian@gmail.com" alt="Email me">
           email me
         </a>
