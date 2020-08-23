@@ -9,36 +9,27 @@ function App() {
         Hey, <span>it's Miriam!</span>
       </h1>
       <p className="main__introduction">
-        Why don't you find me in my social media while I fix this?
+        While I work on this... Why don't you check my projects in my{' '}
+        <a href="http://www.github.com/miriamschaefer" alt="Visit my Github">
+          Github
+        </a>{' '}
+        profile, or my work as a photographer in my{' '}
+        <a
+          href="http://www.instagram.com/miriamschaefer"
+          alt="Visit my Instagram"
+        >
+          Instagram
+        </a>{' '}
+        account. Also, I talk nonsense on{' '}
+        <a href="http://www.twitter.com/miriam_schaefer" alt="Visit my Twitter">
+          Twitter
+        </a>
+        , but if you wanna get in contact, just{' '}
+        <a href="mailto:msuarezmelian@gmail.com" alt="Email me">
+          email me
+        </a>
+        !
       </p>
-      <ul className="main__social">
-        <li className="main__social__github">
-          <a href="http://www.github.com/miriamschaefer" alt="Visit my Github">
-            Github
-          </a>
-        </li>
-        <li className="main__social__instagram">
-          <a
-            href="http://www.instagram.com/miriamschaefer"
-            alt="Visit my Instagram"
-          >
-            Instagram
-          </a>
-        </li>
-        <li className="main__social__twitter">
-          <a
-            href="http://www.twitter.com/miriam_schaefer"
-            alt="Visit my Twitter"
-          >
-            Twitter
-          </a>
-        </li>
-        <li className="main__social__email">
-          <a href="mailto:msuarezmelian@gmail.com" alt="Email me">
-            Email me
-          </a>
-        </li>
-      </ul>
     </main>
   );
 }
