@@ -3,20 +3,18 @@
   font-family: $font-main;
   font-size: rem(20);
   height: 100vh;
-  background: rgb(252, 223, 26);
-  background: linear-gradient(
-    156deg,
-    rgba(252, 223, 26, 1) 0%,
-    rgba(254, 149, 13, 1) 35%,
-    rgba(248, 71, 112, 1) 100%
-  );
+
   &__title {
     margin: 0 0 30px 60px;
     padding-top: 50px;
     text-transform: uppercase;
-    font-size: rem(200);
+    font-size: rem(130);
     letter-spacing: 0.03em;
     font-family: $font-secondary;
+
+    @include media($tablet) {
+      font-size: rem(200);
+    }
 
     & span {
       display: block;

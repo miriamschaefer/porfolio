@@ -9,7 +9,8 @@ function App() {
         Hey, <span>it's Miriam!</span>
       </h1>
       <p className="main__introduction">
-        While I work on this... Why don't you check my projects in my{' '}
+        I'm a photographer turned into a front-end developer. While I work on
+        this... Why don't you check my projects in my{' '}
         <a href="http://www.github.com/miriamschaefer" alt="Visit my Github">
           Github
         </a>{' '}
