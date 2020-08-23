@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ae5e353c.chunk.css",
+    "main.css": "./static/css/main.0657947b.chunk.css",
     "main.js": "./static/js/main.8ad12946.chunk.js",
     "main.js.map": "./static/js/main.8ad12946.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.787b5d83.js",
@@ -8,16 +8,16 @@
     "static/js/2.b5c63af8.chunk.js": "./static/js/2.b5c63af8.chunk.js",
     "static/js/2.b5c63af8.chunk.js.map": "./static/js/2.b5c63af8.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a9731caee950faa3ca26a2fe654e63cc.js": "./precache-manifest.a9731caee950faa3ca26a2fe654e63cc.js",
+    "precache-manifest.59ae9a4cf8d880cedecfeb5e889b6f3d.js": "./precache-manifest.59ae9a4cf8d880cedecfeb5e889b6f3d.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.ae5e353c.chunk.css.map": "./static/css/main.ae5e353c.chunk.css.map",
+    "static/css/main.0657947b.chunk.css.map": "./static/css/main.0657947b.chunk.css.map",
     "static/js/2.b5c63af8.chunk.js.LICENSE.txt": "./static/js/2.b5c63af8.chunk.js.LICENSE.txt",
     "static/media/App.scss": "./static/media/leaguegothic-regular-webfont.19156af9.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.787b5d83.js",
     "static/js/2.b5c63af8.chunk.js",
-    "static/css/main.ae5e353c.chunk.css",
+    "static/css/main.0657947b.chunk.css",
     "static/js/main.8ad12946.chunk.js"
   ]
 }
