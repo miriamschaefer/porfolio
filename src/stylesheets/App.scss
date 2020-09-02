@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 @font-face {
-  font-family: 'league';
-  src: url('./fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+  font-family: 'Altero Regular';
+  src: url('./fonts/Altero-Regular.otf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Altero Outline';
+  src: url('./fonts/Altero-Outline.otf') format('truetype');
+}
+
 @import 'reset/reset';
 
 /* core */

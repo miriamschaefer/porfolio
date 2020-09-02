@@ -6,7 +6,7 @@ function App() {
   return (
     <main className="main background-animation">
       <h1 className="main__title">
-        Hey, <span>it's Miriam!</span>
+        Hey, <span>it's</span> <span>Miriam!</span>
       </h1>
       <p className="main__introduction">
         I'm a photographer turned into a front-end developer. While I work on
