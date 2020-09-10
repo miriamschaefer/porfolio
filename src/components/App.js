@@ -1,6 +1,8 @@
 import React from 'react';
 import '../stylesheets/App.scss';
-// import FontAwesomeIcon from '/Fontawesome';
+import SocialLinks from './SocialLinks';
+// import { faGithub } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
         </a>
         !
       </p>
+      <SocialLinks />
     </main>
   );
 }
