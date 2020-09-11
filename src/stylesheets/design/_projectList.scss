@@ -1,0 +1,22 @@
+.projects {
+  max-width: 500px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__fondo {
+    border: 1px solid black;
+  }
+
+  &__name {
+    border: 1px solid red;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: rem(40);
+    font-family: $font-secondary;
+    line-height: 0.9em;
+  }
+}

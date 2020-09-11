@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../stylesheets/App.scss';
+import projectsFromApi from '../services/projects.json';
+import ProjectList from './ProjectList';
 import SocialLinks from './SocialLinks';
-import Projects from './Projects';
 
-function App() {
+const App = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    setProjects(projectsFromApi);
+  }, []);
   return (
     <main className="main background-animation">
       <h1 className="main__title">
@@ -33,9 +39,9 @@ function App() {
         !
       </p>
       <SocialLinks />
-      <Projects />
+      <ProjectList projects={projectsFromApi} />
     </main>
   );
-}
+};
 
 export default App;

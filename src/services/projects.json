@@ -1,72 +1,70 @@
-{
-  "projects": [
-    {
-      "name": "Rick & Morty Character Search",
-      "description": "Search for your fav characters of your favorite tv series",
-      "tags": ["HTML", "SASS", "React", "React-Router", "Javascript"],
-      "image": "",
-      "github": "https://github.com/miriamschaefer/rick-and-morty-character-search-react",
-      "web": "https://miriamschaefer.github.io/rick-and-morty-character-search-react/",
-      "id": "1"
-    },
-    {
-      "name": "Awesome Profile Cards React",
-      "description": "React SPA that allows the user to create a personal business card and share it on his social media. Refactored code inherited from another team.",
-      "tags": [
-        "HTML",
-        "SASS",
-        "React",
-        "React-Router",
-        "Javascript",
-        "Local Storage"
-      ],
-      "image": "",
-      "github": "https://github.com/miriamschaefer/awesome-profile-cards-react",
-      "web": "http://beta.adalab.es/project-promo-j-m-3-team-6/#/",
-      "id": "2"
-    },
-    {
-      "name": "Awesome Profile Cards Javascript Vanilla",
-      "description": "Javascript web app that allows the user to create a personal business card and share it on his social media. Refactored code inherited from another team.",
-      "tags": ["HTML", "SASS", "Javascript", "Local Storage"],
-      "image": "",
-      "github": "https://github.com/miriamschaefer/awesome-profile-cards-javascript",
-      "web": "http://beta.adalab.es/project-module-2-group-6/",
-      "id": "3"
-    },
-    {
-      "name": "Seriéfilas. TV Show Search.",
-      "description": "Javascript web app that allows the user to search for his favorite shows,",
-      "tags": ["HTML", "SASS", "Javascript", "Local Storage", "GULP"],
-      "image": "buscador.png",
-      "github": "https://github.com/miriamschaefer/seriefilas",
-      "web": "http://beta.adalab.es/modulo-2-evaluacion-final-miriamschaefer/",
-      "id": "4"
-    },
-    {
-      "name": "PowerFrontend",
-      "description": "Simple website with contact form made to share info about the group members",
-      "tags": ["HTML", "SASS", "GULP"],
-      "image": "group.png",
-      "github": "https://github.com/miriamschaefer/power-front-end-web",
-      "web": "http://beta.adalab.es/project-promo-j-module-1-team-8/",
-      "id": "5"
-    },
-    {
-      "name": "Pokedex",
-      "description": "React SPA that renders the list of Pokémon and allows the user to add them to favorites.",
-      "tags": [
-        "HTML",
-        "SASS",
-        "React",
-        "React-Router",
-        "Javascript",
-        "Local Storage"
-      ],
-      "image": "group.png",
-      "github": "https://github.com/miriamschaefer/pokedex",
-      "web": "https://miriamschaefer.github.io/pokedex/",
-      "id": "6"
-    }
-  ]
-}
+[
+  {
+    "name": "Rick & Morty",
+    "description": "Search for your fav characters of your favorite tv series",
+    "tags": ["HTML", "SASS", "React", "React-Router", "Javascript"],
+    "image": "",
+    "github": "https://github.com/miriamschaefer/rick-and-morty-character-search-react",
+    "web": "https://miriamschaefer.github.io/rick-and-morty-character-search-react/",
+    "id": "1"
+  },
+  {
+    "name": "Awesome Profile Cards React",
+    "description": "React SPA that allows the user to create a personal business card and share it on his social media. Refactored code inherited from another team.",
+    "tags": [
+      "HTML",
+      "SASS",
+      "React",
+      "React-Router",
+      "Javascript",
+      "Local Storage"
+    ],
+    "image": "",
+    "github": "https://github.com/miriamschaefer/awesome-profile-cards-react",
+    "web": "http://beta.adalab.es/project-promo-j-m-3-team-6/#/",
+    "id": "2"
+  },
+  {
+    "name": "Awesome Profile Cards JS Vanilla",
+    "description": "Javascript web app that allows the user to create a personal business card and share it on his social media. Refactored code inherited from another team.",
+    "tags": ["HTML", "SASS", "Javascript", "Local Storage"],
+    "image": "",
+    "github": "https://github.com/miriamschaefer/awesome-profile-cards-javascript",
+    "web": "http://beta.adalab.es/project-module-2-group-6/",
+    "id": "3"
+  },
+  {
+    "name": "Seriéfilas",
+    "description": "Javascript web app that allows the user to search for his favorite shows,",
+    "tags": ["HTML", "SASS", "Javascript", "Local Storage", "GULP"],
+    "image": "buscador.png",
+    "github": "https://github.com/miriamschaefer/seriefilas",
+    "web": "http://beta.adalab.es/modulo-2-evaluacion-final-miriamschaefer/",
+    "id": "4"
+  },
+  {
+    "name": "PowerFrontend",
+    "description": "Simple website with contact form made to share info about the group members",
+    "tags": ["HTML", "SASS", "GULP"],
+    "image": "group.png",
+    "github": "https://github.com/miriamschaefer/power-front-end-web",
+    "web": "http://beta.adalab.es/project-promo-j-module-1-team-8/",
+    "id": "5"
+  },
+  {
+    "name": "Pokedex",
+    "description": "React SPA that renders the list of Pokémon and allows the user to add them to favorites.",
+    "tags": [
+      "HTML",
+      "SASS",
+      "React",
+      "React-Router",
+      "Javascript",
+      "Local Storage"
+    ],
+    "image": "group.png",
+    "github": "https://github.com/miriamschaefer/pokedex",
+    "web": "https://miriamschaefer.github.io/pokedex/",
+    "id": "6"
+  }
+]
