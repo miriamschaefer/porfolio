@@ -1,0 +1,13 @@
+.social__icons {
+  font-size: rem(27);
+  margin-left: 30px;
+  &__icon {
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    &:hover {
+      top: -10px;
+    }
+  }
+}
