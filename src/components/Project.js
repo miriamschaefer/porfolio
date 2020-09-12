@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Project = (props) => {
+  const [isShown, setIsShown] = useState(false);
+
   return (
-    <>
-      <h2 className="projects__name">{props.project.name}</h2>
-    </>
+    <div>
+      <h2
+        className="projects__name"
+        onMouseEnter={() => setIsShown(true)}
+        onMouseLeave={() => setIsShown(false)}
+      >
+        {props.project.name}
+      </h2>
+
+      {isShown && <img src={props.project.image} alt="holi" />}
+    </div>
   );
 };
 
