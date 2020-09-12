@@ -1,4 +1,4 @@
-.projects {
+.main__projects__item {
   max-width: 500px;
   margin-left: 15px;
   display: flex;
@@ -13,5 +13,14 @@
     font-size: rem(40);
     font-family: $font-secondary;
     line-height: 0.9em;
+  }
+
+  &__img {
+    width: 500px;
+    z-index: 0;
+
+    & img {
+      width: 100%;
+    }
   }
 }

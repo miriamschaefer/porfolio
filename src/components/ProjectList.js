@@ -4,13 +4,13 @@ import Project from './Project';
 const ProjectList = (props) => {
   const listProject = props.projects.map((project) => {
     return (
-      <li key={project.id} id={project.id}>
+      <li className="main__projects__item" key={project.id} id={project.id}>
         <Project project={project} />
       </li>
     );
   });
 
-  return <ul className="projects">{listProject}</ul>;
+  return <ul className="main__projects">{listProject}</ul>;
 };
 
 export default ProjectList;

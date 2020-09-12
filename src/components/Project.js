@@ -6,14 +6,18 @@ const Project = (props) => {
   return (
     <>
       <h2
-        className="projects__name"
+        className="main__projects__item__name"
         onMouseEnter={() => setIsShown(true)}
         onMouseLeave={() => setIsShown(false)}
       >
         {name}
       </h2>
 
-      {isShown && <img src={image} alt={name} className="" />}
+      {isShown && (
+        <div className="main__projects__item__img">
+          <img src={image} alt={name} />
+        </div>
+      )}
     </>
   );
 };
