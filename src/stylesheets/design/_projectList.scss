@@ -6,12 +6,7 @@
   align-items: center;
   justify-content: center;
 
-  &__fondo {
-    border: 1px solid black;
-  }
-
   &__name {
-    border: 1px solid red;
     margin-top: 0;
     margin-bottom: 30px;
     text-align: center;
@@ -19,8 +14,4 @@
     font-family: $font-secondary;
     line-height: 0.9em;
   }
-}
-
-.hidden {
-  display: none;
 }
