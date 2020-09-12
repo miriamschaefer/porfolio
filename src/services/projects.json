@@ -3,7 +3,7 @@
     "name": "Rick & Morty",
     "description": "Search for your fav characters of your favorite tv series",
     "tags": ["HTML", "SASS", "React", "React-Router", "Javascript"],
-    "image": "",
+    "image": "https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/ff49919e-5796-46d1-bb9e-d5fc274dd8d1.jpg",
     "github": "https://github.com/miriamschaefer/rick-and-morty-character-search-react",
     "web": "https://miriamschaefer.github.io/rick-and-morty-character-search-react/",
     "id": "1"

@@ -1,22 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Project from './Project';
 
 const ProjectList = (props) => {
-  const [hover, setMouseOver] = useState('true');
-
-  let handleMouseOver = (hover) => {
-    setMouseOver({ hover: true });
-  };
-
-  // let handleMouseOut = (hover) => {
-  //   setMouseOut({ hover: false });
-  // };
-
   const listProject = props.projects.map((project) => {
     return (
-      <li key={project.id}>
-        <div className={`projects__fondo ${hover === true ? '' : 'hidden'}`}>
-          <Project project={project} handleMouseOver={hover} />
+      <li key={project.id} id={project.id}>
+        <div
+          onMouseOver={(ev) =>
+            (ev.currentTarget.style = `'background-image: url(${project.image})'`)
+          }
+          onMouseOut={(ev) =>
+            (ev.currentTarget.style = 'background-image: none')
+          }
+        >
+          <Project project={project} />
         </div>
       </li>
     );
