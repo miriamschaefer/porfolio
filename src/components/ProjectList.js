@@ -2,9 +2,11 @@ import React from 'react';
 import Project from './Project';
 
 const ProjectList = (props) => {
+  const { id } = props;
+
   const listProject = props.projects.map((project) => {
     return (
-      <li className="main__projects__item" key={project.id} id={project.id}>
+      <li className="main__projects__item" key={id} id={id}>
         <Project project={project} />
       </li>
     );

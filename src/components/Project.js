@@ -5,6 +5,11 @@ const Project = (props) => {
   const { name, image } = props.project;
   return (
     <>
+      {isShown && (
+        <div className="main__projects__item__img">
+          <img src={image} alt={name} />
+        </div>
+      )}
       <h2
         className="main__projects__item__name"
         onMouseEnter={() => setIsShown(true)}
@@ -12,12 +17,6 @@ const Project = (props) => {
       >
         {name}
       </h2>
-
-      {isShown && (
-        <div className="main__projects__item__img">
-          <img src={image} alt={name} />
-        </div>
-      )}
     </>
   );
 };
