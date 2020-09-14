@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
 @font-face {
-  font-family: 'Altero Regular';
-  src: url('./fonts/Altero-Regular.otf') format('truetype');
+  font-family: 'Mirage Black';
+  src: url('./fonts/Mirage-Black.otf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Altero Outline';
-  src: url('./fonts/Altero-Outline.otf') format('truetype');
+  font-family: 'Mirage Bold';
+  src: url('./fonts/Mirage-Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mirage Regular';
+  src: url('./fonts/Mirage-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mirage Thin';
+  src: url('./fonts/Mirage-Thin.otf') format('truetype');
 }
 
 @import 'reset/reset';
@@ -21,3 +29,4 @@
 @import 'design/background';
 @import 'design/social';
 @import 'design/projectList';
+@import 'design/Header';

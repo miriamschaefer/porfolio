@@ -1,0 +1,12 @@
+.header {
+  font-family: $font-titles;
+  color: $color-light;
+  height: 80px;
+  margin: 0 40px 0 40px;
+
+  &__logo {
+    font-size: rem(36);
+    margin: 20px 0 0 10px;
+    opacity: 0.5;
+  }
+}

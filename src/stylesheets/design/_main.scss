@@ -1,41 +1,53 @@
 .main {
-  z-index: 0;
-  color: $color-light;
-  font-family: $font-main;
-  font-size: rem(20);
-  min-height: 100vh;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  &__about {
+    z-index: 0;
+    color: $color-light;
+    font-family: $font-main;
+    font-size: rem(20);
+    min-height: 100vh;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 
-  &__title {
-    margin: 0 60px 30px 30px;
-    padding-top: 30px;
-    text-transform: uppercase;
-    font-size: rem(100);
-    line-height: 90%;
-    letter-spacing: 0.03em;
-    font-family: $font-secondary;
-
-    @include media($tablet) {
-      font-size: rem(120);
-    }
-
-    & span {
-      display: block;
+    &__title {
+      margin-top: 0;
+      font-size: rem(100);
       line-height: 90%;
-    }
-  }
-  &__introduction {
-    margin: 0 60px 0 30px;
-    padding-bottom: 30px;
-    line-height: 1.5em;
+      letter-spacing: 0.03em;
+      font-family: $font-titles;
 
-    & a {
-      font-style: italic;
-      &:hover {
-        text-decoration: underline;
+      @include media($tablet) {
+        font-size: rem(120);
+      }
+
+      & span {
+        display: block;
+        line-height: 90%;
+      }
+    }
+    &__introduction {
+      font-family: $font-main;
+      font-size: rem(30);
+      padding-bottom: 30px;
+      line-height: 1.3em;
+      left: 50%;
+
+      @include media($tablet) {
+        font-size: rem(36);
+      }
+
+      & a {
+        font-style: italic;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 40px 0 40px;
+  // border: 1px solid red;
 }
