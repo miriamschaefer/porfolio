@@ -7,27 +7,11 @@ const About = () => {
         Hey, <span>it's Miriam!</span>
       </h1>
       <p className="main__about__introduction">
-        I'm a photographer turned into a front-end developer. While I work on
-        this... Why don't you check my projects in my{' '}
-        <a href="http://www.github.com/miriamschaefer" alt="Visit my Github">
-          Github
-        </a>{' '}
-        profile, or my work as a photographer in my{' '}
-        <a
-          href="http://www.instagram.com/miriamschaefer"
-          alt="Visit my Instagram"
-        >
-          Instagram
-        </a>{' '}
-        account. Also, I talk nonsense on{' '}
-        <a href="http://www.twitter.com/miriam_schaefer" alt="Visit my Twitter">
-          Twitter
-        </a>
-        , but if you wanna get in touch, just{' '}
-        <a href="mailto:msuarezmelian@gmail.com" alt="Email me">
-          email me
-        </a>
-        !
+        I'm a creative being, born and raised in the Canary Islands (Spain).
+        When I was 17, I moved to Madrid to pursue a career in digital media.
+        After some years as a photographer and social media manager of different
+        e-commerces, I decided to start coding and start a career in Front-End
+        Development.
       </p>
     </div>
   );

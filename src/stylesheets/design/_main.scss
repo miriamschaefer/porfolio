@@ -1,5 +1,6 @@
 .main {
   &__about {
+    margin: 0 40px 0 40px;
     z-index: 0;
     color: $color-light;
     font-family: $font-main;
@@ -10,7 +11,7 @@
     appearance: none;
 
     &__title {
-      margin-top: 0;
+      margin-top: 35px;
       font-size: rem(100);
       line-height: 90%;
       letter-spacing: 0.03em;
@@ -33,21 +34,25 @@
       left: 50%;
 
       @include media($tablet) {
-        font-size: rem(36);
+        font-size: rem(42);
       }
+    }
+  }
 
-      & a {
-        font-style: italic;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
+  &__subtitle {
+    text-align: center;
+    color: $color-light;
+    font-family: $font-titles;
+    font-size: rem(50);
+    text-transform: uppercase;
+    margin: 0;
+    @include media($tablet) {
+      font-size: rem(75);
     }
   }
 }
 
 .wrapper {
-  max-width: 1200px;
-  margin: 0 40px 0 40px;
-  // border: 1px solid red;
+  max-width: 1000px;
+  margin: 0 auto;
 }

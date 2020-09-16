@@ -1,0 +1,36 @@
+.main__skills {
+  color: $color-light;
+  text-align: center;
+  font-family: $font-main;
+
+  @include media($tablet) {
+    text-align: right;
+  }
+
+  &__title {
+    font-family: $font-titles;
+    font-size: rem(50);
+    text-transform: uppercase;
+    margin: 0;
+
+    @include media($tablet) {
+      font-size: rem(75);
+    }
+  }
+
+  &__list {
+    font-size: rem(25);
+    line-height: 2rem;
+    text-align: left;
+    margin-left: 60px;
+    @include media($tablet) {
+      text-align: right;
+    }
+
+    &__item {
+      &__smiley {
+        margin-left: 20px;
+      }
+    }
+  }
+}
