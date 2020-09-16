@@ -5,6 +5,7 @@ import ProjectList from './ProjectList';
 import SocialLinks from './SocialLinks';
 import About from './About';
 import Skills from './Skills';
+import Stuff from './Stuff';
 // import Header from './Header';
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <h2 className="main__subtitle">Projects</h2>
           <ProjectList projects={projectsFromApi} />
           <Skills />
+          <Stuff />
           <SocialLinks />
         </div>
       </main>

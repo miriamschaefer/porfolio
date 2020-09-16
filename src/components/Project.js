@@ -1,10 +1,12 @@
 import React from 'react';
 
 const Project = (props) => {
-  const { name } = props.project;
+  const { name, github } = props.project;
   return (
     <>
-      <h3 className="main__projects__item__name">{name}</h3>
+      <a href={github} target="blank" alt="Visit Github repository">
+        <h3 className="main__projects__item__name">{name}</h3>
+      </a>
     </>
   );
 };

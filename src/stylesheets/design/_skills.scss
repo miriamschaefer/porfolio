@@ -5,6 +5,7 @@
 
   @include media($tablet) {
     text-align: right;
+    margin-right: 40px;
   }
 
   &__title {
@@ -22,14 +23,26 @@
     font-size: rem(25);
     line-height: 2rem;
     text-align: left;
-    margin-left: 60px;
     @include media($tablet) {
       text-align: right;
+      font-size: rem(35);
     }
 
     &__item {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 5px;
+
+      @include media($tablet) {
+        display: block;
+        text-align: right;
+      }
+
       &__smiley {
         margin-left: 20px;
+        margin-right: 5px;
       }
     }
   }

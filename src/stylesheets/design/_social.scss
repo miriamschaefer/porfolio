@@ -1,14 +1,53 @@
-.social__icons {
+.social {
+  font-family: $font-main;
   color: $color-light;
-  font-size: rem(27);
-  margin-left: 30px;
-  &__icon {
-    margin-right: 10px;
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
+  font-size: rem(30);
+  text-align: center;
+  margin: 40px auto;
+
+  & p {
+    margin-bottom: 5px;
+    font-size: rem(24);
+  }
+
+  & a {
+    font-size: rem(32);
+
     &:hover {
-      top: -10px;
+      background: linear-gradient(
+        to right,
+        #fff 0%,
+        #fcdf1a 20%,
+        #fe950d 40%,
+        #f84770 60%,
+        #fff 80%
+      );
+      background-size: 200% auto;
+
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      animation: shine 3s linear infinite;
+      @keyframes shine {
+        to {
+          background-position: 200% center;
+        }
+      }
+    }
+  }
+
+  &__icons {
+    margin-top: 10px;
+
+    &__icon {
+      margin-right: 10px;
+      position: relative;
+      top: 0;
+      transition: top ease 0.5s;
+      &:hover {
+        top: -10px;
+      }
     }
   }
 }

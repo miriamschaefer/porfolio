@@ -10,7 +10,7 @@ const About = () => {
         I'm a creative being, born and raised in the Canary Islands (Spain).
         When I was 17, I moved to Madrid to pursue a career in digital media.
         After some years as a photographer and social media manager of different
-        e-commerces, I decided to start coding and start a career in Front-End
+        e-commerces, I decided to start coding and begin a career in Front-End
         Development.
       </p>
     </div>

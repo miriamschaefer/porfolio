@@ -30,7 +30,7 @@ const Skills = () => {
           />
         </li>
         <li className="main__skills__list__item">
-          CSS5
+          CSS3
           <FontAwesomeIcon
             icon={faSmile}
             className="main__skills__list__item__smiley"
@@ -58,7 +58,7 @@ const Skills = () => {
           />
         </li>
         <li className="main__skills__list__item">
-          I also make reeeally good playlists
+          I make reeeally good playlists
           <FontAwesomeIcon
             icon={faSmile}
             className="main__skills__list__item__smiley"

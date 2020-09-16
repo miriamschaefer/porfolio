@@ -1,0 +1,45 @@
+.main__stuff {
+  color: $color-light;
+  text-align: center;
+  margin: 0 25px 0 25px;
+
+  &__title {
+    font-family: $font-titles;
+    font-size: rem(50);
+    text-transform: uppercase;
+
+    @include media($tablet) {
+      font-size: rem(65);
+      text-align: left;
+      margin-left: 40px;
+    }
+  }
+
+  &__list {
+    text-align: center;
+    font-family: $font-main;
+    font-size: rem(22);
+    line-height: 2rem;
+    text-align: left;
+    @include media($tablet) {
+      text-align: right;
+      font-size: rem(30);
+      margin-left: 40px;
+    }
+
+    &__item {
+      margin-bottom: 3px;
+      text-align: center;
+
+      @include media($tablet) {
+        text-align: left;
+      }
+
+      &__icon {
+        font-size: rem(20);
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
