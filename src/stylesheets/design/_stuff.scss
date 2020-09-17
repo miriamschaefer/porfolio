@@ -29,16 +29,27 @@
 
     &__item {
       margin-bottom: 3px;
+      display: flex;
+      justify-content: center;
       text-align: center;
 
       @include media($tablet) {
         text-align: left;
+        justify-content: left;
+      }
+
+      & p {
+        margin: 0;
       }
 
       &__icon {
-        font-size: rem(20);
-        margin-left: 20px;
-        margin-right: 10px;
+        flex-shrink: 0;
+        width: 30px;
+        margin: 0 10px 0 10px;
+
+        & img {
+          width: 100%;
+        }
       }
     }
 

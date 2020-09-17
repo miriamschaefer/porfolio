@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import heart from '../images/emoji-heart.png';
 
 const Stuff = () => {
   return (
@@ -9,53 +8,52 @@ const Stuff = () => {
 
       <ul className="main__stuff__list">
         <li className="main__stuff__list__item">
-          <FontAwesomeIcon
-            icon={faHeart}
-            className="main__stuff__list__item__icon"
-          />
-          I love Oasis and Bad Bunny
+          <div className="main__stuff__list__item__icon">
+            <img src={heart} alt="emoji" />
+          </div>
+          <p>I love Oasis and Bad Bunny</p>
         </li>
         <li className="main__stuff__list__item">
-          <FontAwesomeIcon
-            icon={faHeart}
-            className="main__stuff__list__item__icon"
-          />
-          I have a dog named Croqueta
+          <div className="main__stuff__list__item__icon">
+            <img src={heart} alt="emoji" />
+          </div>
+          <p>I have a dog named Croqueta</p>
         </li>
         <li className="main__stuff__list__item">
-          <FontAwesomeIcon
-            icon={faHeart}
-            className="main__stuff__list__item__icon"
-          />
-          According to this list I keep, I've been to more than 120 concerts
-          throughout my life
+          <div className="main__stuff__list__item__icon">
+            <img src={heart} alt="emoji" />
+          </div>
+          <p>
+            According to this list I keep, I've been to more than 120 concerts
+            throughout my life
+          </p>
         </li>
         <li className="main__stuff__list__item">
-          <FontAwesomeIcon
-            icon={faHeart}
-            className="main__stuff__list__item__icon"
-          />
-          I have never broken a bone
+          <div className="main__stuff__list__item__icon">
+            <img src={heart} alt="emoji" />
+          </div>
+          <p>I have never broken a bone</p>
         </li>
         <li className="main__stuff__list__item">
-          <FontAwesomeIcon
-            icon={faHeart}
-            className="main__stuff__list__item__icon"
-          />
-          I kinda miss MySpace{' '}
+          <div className="main__stuff__list__item__icon">
+            <img src={heart} alt="emoji" />
+          </div>
+          <p>I kinda miss Myspace</p>
         </li>
+
         <li className="main__stuff__list__item">
-          <FontAwesomeIcon
-            icon={faHeart}
-            className="main__stuff__list__item__icon"
-          />
-          I make reeeeally good{' '}
-          <a
-            href="https://open.spotify.com/user/eme_x?si=wzjkxOwfSI2b30YwTkr2RA"
-            alt="Spotify profile"
-          >
-            playlists
-          </a>
+          <div className="main__stuff__list__item__icon">
+            <img src={heart} alt="emoji" />
+          </div>
+          <p>
+            I make reeeeally good{' '}
+            <a
+              href="https://open.spotify.com/user/eme_x?si=wzjkxOwfSI2b30YwTkr2RA"
+              alt="Spotify profile"
+            >
+              playlists
+            </a>
+          </p>
         </li>
       </ul>
     </div>
