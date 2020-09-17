@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSmile } from '@fortawesome/free-solid-svg-icons';
+import emoji from '../images/emoji-skills.png';
 
 const Skills = () => {
   return (
@@ -9,60 +8,46 @@ const Skills = () => {
 
       <ul className="main__skills__list">
         <li className="main__skills__list__item">
-          HTML5{' '}
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
+          <p>Javascript</p>
+          <div className="main__skills__list__item__smiley">
+            <img src={emoji} alt="emoji" />
+          </div>
         </li>
         <li className="main__skills__list__item">
-          Javascript{' '}
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
+          <p>React</p>
+          <div className="main__skills__list__item__smiley">
+            <img src={emoji} alt="emoji" />
+          </div>
         </li>
         <li className="main__skills__list__item">
-          React
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
+          <p>HTML5</p>
+          <div className="main__skills__list__item__smiley">
+            <img src={emoji} alt="emoji" />
+          </div>
         </li>
         <li className="main__skills__list__item">
-          CSS3
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
+          <p>CSS3</p>
+          <div className="main__skills__list__item__smiley">
+            <img src={emoji} alt="emoji" />
+          </div>
         </li>
         <li className="main__skills__list__item">
-          SASS
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
+          <p>SASS</p>
+          <div className="main__skills__list__item__smiley">
+            <img src={emoji} alt="emoji" />
+          </div>
         </li>
         <li className="main__skills__list__item">
-          GULP
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
+          <p>GULP</p>
+          <div className="main__skills__list__item__smiley">
+            <img src={emoji} alt="emoji" />
+          </div>
         </li>
         <li className="main__skills__list__item">
-          Git
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
-        </li>
-        <li className="main__skills__list__item">
-          I make reeeally good playlists
-          <FontAwesomeIcon
-            icon={faSmile}
-            className="main__skills__list__item__smiley"
-          />
+          <p>Git</p>
+          <div className="main__skills__list__item__smiley">
+            <img src={emoji} alt="emoji" />
+          </div>
         </li>
       </ul>
     </div>

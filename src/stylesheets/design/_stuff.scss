@@ -41,5 +41,11 @@
         margin-right: 10px;
       }
     }
+
+    & a {
+      &:hover {
+        @include link-hover;
+      }
+    }
   }
 }

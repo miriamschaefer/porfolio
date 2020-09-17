@@ -21,7 +21,6 @@ const App = () => {
       <main className="main">
         <div className="wrapper">
           <About />
-          <h2 className="main__subtitle">Projects</h2>
           <ProjectList projects={projectsFromApi} />
           <Skills />
           <Stuff />

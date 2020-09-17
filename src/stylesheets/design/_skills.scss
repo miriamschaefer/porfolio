@@ -20,29 +20,37 @@
   }
 
   &__list {
-    font-size: rem(25);
+    font-size: rem(26);
     line-height: 2rem;
-    text-align: left;
+    text-align: center;
     @include media($tablet) {
       text-align: right;
       font-size: rem(35);
     }
 
     &__item {
+      margin: 0 20px 5px 20px;
       display: flex;
       flex-direction: row-reverse;
-      justify-content: center;
-      align-items: flex-start;
-      margin-bottom: 5px;
+      justify-content: flex-end;
+      align-items: center;
 
       @include media($tablet) {
-        display: block;
         text-align: right;
+        flex-direction: row;
+      }
+
+      & p {
+        margin: 0;
       }
 
       &__smiley {
-        margin-left: 20px;
-        margin-right: 5px;
+        width: 30px;
+        margin: 0 10px 0 10px;
+
+        & img {
+          width: 100%;
+        }
       }
     }
   }

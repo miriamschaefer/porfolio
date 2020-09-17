@@ -1,18 +1,21 @@
 .main {
   &__about {
-    margin: 0 40px 0 40px;
+    margin: 0 20px 0 20px;
     z-index: 0;
     color: $color-light;
     font-family: $font-main;
     font-size: rem(20);
-    min-height: 100vh;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 
+    @include media($tablet) {
+      min-height: 100vh;
+    }
+
     &__title {
       margin-top: 35px;
-      font-size: rem(100);
+      font-size: rem(65);
       line-height: 90%;
       letter-spacing: 0.03em;
       font-family: $font-titles;
@@ -27,14 +30,18 @@
       }
     }
     &__introduction {
-      font-family: $font-main;
-      font-size: rem(30);
+      text-align: left;
+      font-family: $font-secondary;
+      font-size: rem(25);
       padding-bottom: 30px;
       line-height: 1.3em;
       left: 50%;
 
       @include media($tablet) {
+        margin: 0 40px 0 40px;
+        font-family: $font-main;
         font-size: rem(42);
+        text-align: left;
       }
     }
   }

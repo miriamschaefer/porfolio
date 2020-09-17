@@ -12,7 +12,11 @@ class SocialLinks extends Component {
     return (
       <div className="social">
         <p>So, let's talk!</p>
-        <a href="mailto:msuarezmelian@gmail.com" alt="Email me!">
+        <a
+          href="mailto:msuarezmelian@gmail.com"
+          alt="Email me!"
+          className="social__email"
+        >
           msuarezmelian@gmail.com
         </a>
         <div className="social__icons">

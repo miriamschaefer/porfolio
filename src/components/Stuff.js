@@ -13,14 +13,14 @@ const Stuff = () => {
             icon={faHeart}
             className="main__stuff__list__item__icon"
           />
-          I love Oasis and Bad Bunny.
+          I love Oasis and Bad Bunny
         </li>
         <li className="main__stuff__list__item">
           <FontAwesomeIcon
             icon={faHeart}
             className="main__stuff__list__item__icon"
           />
-          I have a dog named Croqueta.
+          I have a dog named Croqueta
         </li>
         <li className="main__stuff__list__item">
           <FontAwesomeIcon
@@ -28,21 +28,34 @@ const Stuff = () => {
             className="main__stuff__list__item__icon"
           />
           According to this list I keep, I've been to more than 120 concerts
-          throughout my life.
+          throughout my life
         </li>
         <li className="main__stuff__list__item">
           <FontAwesomeIcon
             icon={faHeart}
             className="main__stuff__list__item__icon"
           />
-          I have never broken a bone.
+          I have never broken a bone
         </li>
         <li className="main__stuff__list__item">
           <FontAwesomeIcon
             icon={faHeart}
             className="main__stuff__list__item__icon"
           />
-          I kinda miss MySpace.{' '}
+          I kinda miss MySpace{' '}
+        </li>
+        <li className="main__stuff__list__item">
+          <FontAwesomeIcon
+            icon={faHeart}
+            className="main__stuff__list__item__icon"
+          />
+          I make reeeeally good{' '}
+          <a
+            href="https://open.spotify.com/user/eme_x?si=wzjkxOwfSI2b30YwTkr2RA"
+            alt="Spotify profile"
+          >
+            playlists
+          </a>
         </li>
       </ul>
     </div>
