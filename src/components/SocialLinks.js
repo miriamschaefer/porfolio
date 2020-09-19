@@ -10,7 +10,7 @@ import {
 class SocialLinks extends Component {
   render() {
     return (
-      <div className="social">
+      <section className="social">
         <p>So, let's talk!</p>
         <a
           href="mailto:msuarezmelian@gmail.com"
@@ -57,7 +57,7 @@ class SocialLinks extends Component {
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
-      </div>
+      </section>
     );
   }
 }

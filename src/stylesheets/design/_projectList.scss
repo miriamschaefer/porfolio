@@ -31,20 +31,18 @@
   &__item {
     max-width: 500px;
 
-    &__name {
-      margin: 0 10px 15px 10px;
-      text-align: center;
-      font-size: rem(28);
-      font-family: $font-main;
-      line-height: 1.3em;
+    margin: 0 10px 15px 10px;
+    text-align: center;
+    font-size: rem(28);
+    font-family: $font-main;
+    line-height: 1.3em;
 
-      &:hover {
-        @include link-hover;
-      }
+    &:hover {
+      @include link-hover;
+    }
 
-      @include media($tablet) {
-        font-size: rem(50);
-      }
+    @include media($tablet) {
+      font-size: rem(50);
     }
   }
 }

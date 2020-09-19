@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Project = (props) => {
-  const { name, github } = props.project;
+  const { name, id } = props.project;
   return (
-    <>
-      <a href={github} target="blank" alt="Visit Github repository">
-        <h3 className="main__projects__item__name">{name}</h3>
-      </a>
-    </>
+    <Link to={`/project/${id}`}>
+      <li className="main__projects__item" key={id} id={id}>
+        {name}
+      </li>
+    </Link>
   );
 };
 

@@ -7,15 +7,9 @@ const ProjectList = (props) => {
 
   const listProject = props.projects.map((project) => {
     return (
-      <li
-        className="main__projects__item"
-        key={project.id}
-        id={project.id}
-        // onMouseEnter={() => setIsShown(true)}
-        // onMouseLeave={() => setIsShown(false)}
-      >
-        <Project project={project} />
-      </li>
+      // onMouseEnter={() => setIsShown(true)}
+      // onMouseLeave={() => setIsShown(false)}
+      <Project project={project} key={project.id} />
     );
   });
 

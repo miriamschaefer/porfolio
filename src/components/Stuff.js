@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const Stuff = () => {
   return (
     <Fade left>
-      <div className="main__stuff">
+      <section className="main__stuff">
         <h2 className="main__stuff__title">Things that really matter</h2>
 
         <ul className="main__stuff__list">
@@ -58,7 +58,7 @@ const Stuff = () => {
             </p>
           </li>
         </ul>
-      </div>
+      </section>
     </Fade>
   );
 };

@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const Skills = () => {
   return (
     <Fade right>
-      <div className="main__skills">
+      <section className="main__skills">
         <h2 className="main__skills__title">Skills</h2>
 
         <ul className="main__skills__list">
@@ -52,7 +52,7 @@ const Skills = () => {
             </div>
           </li>
         </ul>
-      </div>
+      </section>
     </Fade>
   );
 };
