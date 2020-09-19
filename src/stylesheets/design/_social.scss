@@ -14,12 +14,6 @@
     font-size: rem(22);
   }
 
-  & a {
-    &:hover {
-      @include link-hover;
-    }
-  }
-
   &__icons {
     margin-top: 10px;
 

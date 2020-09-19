@@ -34,9 +34,9 @@
     &__name {
       margin: 0 10px 15px 10px;
       text-align: center;
-      font-size: rem(22);
+      font-size: rem(28);
       font-family: $font-main;
-      line-height: 0.9em;
+      line-height: 1.3em;
 
       &:hover {
         @include link-hover;

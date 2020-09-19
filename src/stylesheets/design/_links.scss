@@ -1,0 +1,27 @@
+a {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+
+  &:hover {
+    background: linear-gradient(
+      to right,
+      #fff 0%,
+      #fcdf1a 20%,
+      #fe950d 40%,
+      #f84770 60%,
+      #fff 80%
+    );
+    background-size: 200% auto;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 3s linear infinite;
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+  }
+}

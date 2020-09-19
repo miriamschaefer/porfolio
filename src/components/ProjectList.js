@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import Project from './Project';
 
 const ProjectList = (props) => {
@@ -23,7 +24,7 @@ const ProjectList = (props) => {
   // });
 
   return (
-    <>
+    <Fade left>
       <h2 className="main__subtitle">Projects</h2>
       <p className="main__projects__text">
         Check them on my{' '}
@@ -36,7 +37,7 @@ const ProjectList = (props) => {
         {listProject}
         {/* {isShown && projectImg} */}
       </ul>
-    </>
+    </Fade>
   );
 };
 

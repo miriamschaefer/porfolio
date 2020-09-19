@@ -52,11 +52,5 @@
         }
       }
     }
-
-    & a {
-      &:hover {
-        @include link-hover;
-      }
-    }
   }
 }
