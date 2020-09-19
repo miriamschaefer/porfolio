@@ -46,6 +46,7 @@ const App = () => {
           image={project.image}
           about={project.about}
           tags={project.tags}
+          goals={project.goals}
         />
       );
     } else {
