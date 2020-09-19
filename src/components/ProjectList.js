@@ -27,7 +27,7 @@ const ProjectList = (props) => {
         </a>{' '}
         profile while I work on this.
       </p>
-      <ul className="main__projects">
+      <ul className="main__projects ">
         {listProject}
         {/* {isShown && projectImg} */}
       </ul>

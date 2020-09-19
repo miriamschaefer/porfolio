@@ -1,0 +1,52 @@
+.main__project {
+  font-family: $font-projects;
+  color: $color-medium;
+  &__info {
+    position: relative;
+    width: 100%;
+    background-color: $color-light;
+    text-align: center;
+
+    & h3,
+    h4 {
+      padding: 25px 10px 0 10px;
+      font-family: $font-titles;
+      font-size: rem(25);
+    }
+
+    & p {
+      padding: 0 10px 0 10px;
+    }
+  }
+
+  &__links {
+    margin-bottom: 25px;
+    & .icon {
+      font-size: rem(20);
+      margin-right: 10px;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    align-items: center;
+
+    & .icon {
+      font-size: rem(20);
+      margin: 0 10px 0 10px;
+    }
+  }
+
+  &__image {
+    display: flex;
+    align-items: center;
+    width: 325px;
+
+    & img {
+      width: 100%;
+    }
+  }
+}

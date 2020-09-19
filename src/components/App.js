@@ -20,13 +20,13 @@ const App = () => {
 
   const getMain = () => {
     return (
-      <>
+      <main className="main wrapper">
         <About />
         <ProjectList projects={projectsFromApi} />
         <Skills />
         <Stuff />
         <SocialLinks />
-      </>
+      </main>
     );
   };
 
@@ -57,17 +57,14 @@ const App = () => {
   return (
     <React.Fragment>
       {/* <Header /> */}
-      <main className="main">
-        <div className="wrapper">
-          <Switch>
-            <Route exact path="/">
-              {getMain}
-            </Route>
 
-            <Route exact path="/project/:id" render={renderProject} />
-          </Switch>
-        </div>
-      </main>
+      <Switch>
+        <Route exact path="/">
+          {getMain}
+        </Route>
+
+        <Route exact path="/project/:id" render={renderProject} />
+      </Switch>
     </React.Fragment>
   );
 };

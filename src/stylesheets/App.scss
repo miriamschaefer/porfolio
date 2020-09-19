@@ -18,6 +18,8 @@
   src: url('./fonts/Mirage-Thin.otf') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @import 'reset/reset';
 
 /* core */
@@ -25,6 +27,7 @@
 @import 'core/mixins';
 @import 'core/functions';
 
+@import 'design/links';
 @import 'design/main';
 @import 'design/background';
 @import 'design/social';
@@ -32,4 +35,4 @@
 @import 'design/Header';
 @import 'design/Skills';
 @import 'design/stuff';
-@import 'design/links';
+@import 'design/projectDetail';
