@@ -25,7 +25,8 @@
     "github": "https://github.com/miriamschaefer/awesome-profile-cards-react",
     "web": "http://beta.adalab.es/project-promo-j-m-3-team-6/#/",
     "id": 2,
-    "goals": "In this team project we had to refactor the code from another team and implement ReactJS. The main challenge was to get to know how the workflow changes comparing to a project built with Javascript Vanilla and also get to work with inherited code and the problems that come with it."
+    "goals": "In this team project we had to refactor the code from another team and implement ReactJS. The main challenge was to get to know how the workflow changes comparing to a project built with Javascript Vanilla and also get to work with inherited code and the problems that come with it.",
+    "mockup": "https://raw.githubusercontent.com/miriamschaefer/porfolio/master/src/images/project-mockup-1.png"
   },
   {
     "name": "Awesome Profile Cards JS Vanilla",
@@ -35,7 +36,8 @@
     "github": "https://github.com/miriamschaefer/awesome-profile-cards-javascript",
     "web": "http://beta.adalab.es/project-module-2-group-6/",
     "id": 3,
-    "goals": "The main goal for this project was to learn how to handle events and forms with Javascript. Also, we had to work for the first time with a file input and connect the API that will generate the card."
+    "goals": "The main goal for this project was to learn how to handle events and forms with Javascript. Also, we had to work for the first time with a file input and connect the API that will generate the card.",
+    "mockup": "https://raw.githubusercontent.com/miriamschaefer/porfolio/master/src/images/project-mockup-1.png"
   },
   {
     "name": "Seriéfilas",
@@ -45,7 +47,8 @@
     "github": "https://github.com/miriamschaefer/seriefilas",
     "web": "http://beta.adalab.es/modulo-2-evaluacion-final-miriamschaefer/",
     "id": 4,
-    "goals": "Final project for the Javascript module. We were asked to develop a search app that connected with TVApi. Also, apart from working with the API and the search input, we had to create a functionality so the user could keep a list of favorites which were also kept in localStorage, so the list would also be rendered if the user visited several times."
+    "goals": "Final project for the Javascript module. We were asked to develop a search app that connected with TVApi. Also, apart from working with the API and the search input, we had to create a functionality so the user could keep a list of favorites which were also kept in localStorage, so the list would also be rendered if the user visited several times.",
+    "mockup": "https://raw.githubusercontent.com/miriamschaefer/porfolio/master/src/images/project-mockup-1.png"
   },
   {
     "name": "PowerFrontend",
@@ -55,7 +58,8 @@
     "github": "https://github.com/miriamschaefer/power-front-end-web",
     "web": "http://beta.adalab.es/project-promo-j-module-1-team-8/",
     "id": 5,
-    "goals": "Group project for the first module of Adalab. The main goal was to set the HTML structure for the first time and get to know the elements and the way the behave with a mobile-first implementation. Also, we had to create a contact form."
+    "goals": "Group project for the first module of Adalab. The main goal was to set the HTML structure for the first time and get to know the elements and the way the behave with a mobile-first implementation. Also, we had to create a contact form.",
+    "mockup": "https://raw.githubusercontent.com/miriamschaefer/porfolio/master/src/images/project-mockup-1.png"
   },
   {
     "name": "Pokedex",
@@ -65,6 +69,7 @@
     "github": "https://github.com/miriamschaefer/pokedex",
     "web": "https://miriamschaefer.github.io/pokedex/",
     "id": 6,
-    "goals": "The main goal of this project was to render the first 12 Pokemons from a JSON file. After that, I decided to implement a fav list and Local Storage so the user could add its fav Pokemons. Working on implementing the whole PokeApi, so the first 150 creatures are available."
+    "goals": "The main goal of this project was to render the first 12 Pokemons from a JSON file. After that, I decided to implement a fav list and Local Storage so the user could add its fav Pokemons. Working on implementing the whole PokeApi, so the first 150 creatures are available.",
+    "mockup": "https://raw.githubusercontent.com/miriamschaefer/porfolio/master/src/images/project-mockup-1.png"
   }
 ]
