@@ -4,22 +4,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: rem(20);
+  font-size: rem(16);
   text-align: center;
+
+  @include media($tablet) {
+    font-size: rem(20);
+  }
 
   & h3,
   h4 {
     padding: 0 10px 0 10px;
     margin-right: 20px;
     font-family: $font-titles;
-    font-size: rem(50);
+    font-size: rem(40);
     background: -webkit-linear-gradient(#fcdf1a, #fe950d, #f84770);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @include media($tablet) {
+      font-size: rem(50);
+    }
   }
 
   & p {
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
 
     @include media($tablet) {
       padding: 0 40px 0 40px;
@@ -31,14 +39,30 @@
   }
 
   &__tags {
+    font-family: $font-main;
     text-align: center;
+
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-light;
+      font-size: rem(22);
+      height: 50px;
+      width: 155px;
+      margin: 10px 10px 10px 10px;
+      background-image: linear-gradient(
+        to bottom right,
+        #fcdf1a,
+        #fe950d,
+        #f84770
+      );
+      border-radius: 25px;
+    }
+
     @include media($tablet) {
       display: flex;
       align-content: space-around;
-
-      &__item {
-        margin: 0 10px 0 10px;
-      }
     }
   }
 
@@ -54,13 +78,13 @@
   }
 
   &__goals {
-    margin: auto;
-    width: 60%;
     padding: 10px;
     text-align: center;
     justify-items: center;
+    padding: 0 10px 0 10px;
 
     @include media($tablet) {
+      width: 60%;
       text-align: left;
       padding: 0 25px 0 25px;
       display: flex;

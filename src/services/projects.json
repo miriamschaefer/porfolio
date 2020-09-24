@@ -34,7 +34,7 @@
     "github": "https://github.com/miriamschaefer/awesome-profile-cards-javascript",
     "web": "http://beta.adalab.es/project-module-2-group-6/",
     "id": 3,
-    "goals": "The main goal for this project was to learn how to handle events and forms with Javascript. Also one of the challenges was to work with a file input and connect the API that will generate the card."
+    "goals": "The main goal for this project was to learn how to handle events and forms with Javascript. Also, we had to work for the first time with a file input and connect the API that will generate the card."
   },
   {
     "name": "Seriéfilas",
@@ -43,31 +43,27 @@
     "image": "https://raw.githubusercontent.com/miriamschaefer/porfolio/dev/src/images/project-image-seriefilas.png",
     "github": "https://github.com/miriamschaefer/seriefilas",
     "web": "http://beta.adalab.es/modulo-2-evaluacion-final-miriamschaefer/",
-    "id": 4
+    "id": 4,
+    "goals": "Final project for the Javascript module. We were asked to develop a search app that connected with TVApi. Also, apart from working with the API and the search input, we had to create a functionality so the user could keep a list of favorites which were also kept in localStorage, so the list would also be rendered if the user visited several times."
   },
   {
     "name": "PowerFrontend",
     "about": "Simple website with contact form made to share info about the group members",
-    "tags": ["HTML", "SASS", "GULP"],
+    "tags": ["HTML5", "SASS", "GULP", "Grid", "CSS3", "Mobile first"],
     "image": "https://raw.githubusercontent.com/miriamschaefer/porfolio/dev/src/images/project-image-powerfrontend.png",
     "github": "https://github.com/miriamschaefer/power-front-end-web",
     "web": "http://beta.adalab.es/project-promo-j-module-1-team-8/",
-    "id": 5
+    "id": 5,
+    "goals": "Group project for the first module of Adalab. The main goal was to set the HTML structure for the first time and get to know the elements and the way the behave with a mobile-first implementation. Also, we had to create a contact form."
   },
   {
     "name": "Pokedex",
     "about": "React SPA that renders the list of Pokémon and allows the user to add them to favorites.",
-    "tags": [
-      "HTML",
-      "SASS",
-      "React",
-      "React-Router",
-      "Javascript",
-      "Local Storage"
-    ],
+    "tags": ["HTML", "SASS", "React", "Javascript", "Local Storage"],
     "image": "https://raw.githubusercontent.com/miriamschaefer/porfolio/dev/src/images/project-image-pokedex.png",
     "github": "https://github.com/miriamschaefer/pokedex",
     "web": "https://miriamschaefer.github.io/pokedex/",
-    "id": 6
+    "id": 6,
+    "goals": "The main goal of this project was to render the first 12 Pokemons from a JSON file. After that, I decided to implement a fav list and Local Storage so the user could add its fav Pokemons. Working on implementing the whole PokeApi, so the first 150 creatures are available."
   }
 ]

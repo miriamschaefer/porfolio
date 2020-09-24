@@ -5,15 +5,17 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 const Error = () => {
   return (
-    <div className="main__error">
-      <h3 className="main__error__title">There's nothing here, darling.</h3>
-      <Link to="/">
-        <div className="error__img">
-          Go home, babe.
-          <FontAwesomeIcon icon={faHome} />
-        </div>
-      </Link>
-    </div>
+    <section className="main__error">
+      <div className="main__error__container">
+        <h3 className="main__error__title">There's nothing here, darling.</h3>
+        <Link to="/">
+          <div className="main__error__container__link">
+            <p>Go home</p>
+            <FontAwesomeIcon icon={faHome} className="main__error__icon" />
+          </div>
+        </Link>
+      </div>
+    </section>
   );
 };
 

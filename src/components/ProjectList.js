@@ -20,13 +20,7 @@ const ProjectList = (props) => {
   return (
     <Fade left>
       <h2 className="main__subtitle">Projects</h2>
-      <p className="main__projects__text">
-        Check them on my{' '}
-        <a href="http://www.github.com/miriamschaefer" alt="My Github profile">
-          Github
-        </a>{' '}
-        profile while I work on this.
-      </p>
+
       <ul className="main__projects ">
         {listProject}
         {/* {isShown && projectImg} */}

@@ -1,0 +1,16 @@
+.main__error {
+  height: 100vh;
+  position: relative;
+  &__container {
+    transform: translateY(90%);
+    text-align: center;
+    color: $color-light;
+    font-family: $font-main;
+    font-size: rem(32);
+    &__link {
+      &:hover {
+        @include link-hover;
+      }
+    }
+  }
+}

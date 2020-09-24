@@ -14,7 +14,7 @@ const ProjectDetail = (props) => {
   const tags = projectTags.map((tag, i) => {
     return (
       <li key={i} className="main__project__tags__item">
-        {tag}
+        <span>{tag}</span>
       </li>
     );
   });
@@ -39,12 +39,11 @@ const ProjectDetail = (props) => {
         </div>
 
         <div className="main__project__info">
-          <h4>Technologies used:</h4>
           <ul className="main__project__tags">{tags}</ul>
         </div>
 
         <div className="main__project__goals">
-          <h4>Main goal:</h4>
+          <h4>Main goal</h4>
           <p>{goals}</p>
         </div>
 
