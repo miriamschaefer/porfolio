@@ -19,7 +19,7 @@ const ProjectDetail = (props) => {
     );
   });
 
-  const { name, id, image, web, github, goals, about } = props;
+  const { name, id, image, web, github, goals, about, mockup } = props;
   return (
     <main className="main background-change">
       <section className="main__project">
@@ -36,6 +36,16 @@ const ProjectDetail = (props) => {
         <div className="main__project__info">
           <h3>{name}</h3>
           <p>{about}</p>
+        </div>
+
+        <div className="main__project__image">
+          <div className="main__project__image__wrapper">
+            <img
+              src={mockup}
+              title={`${name} preview image`}
+              alt={`${name} preview`}
+            />
+          </div>
         </div>
 
         <div className="main__project__info">
