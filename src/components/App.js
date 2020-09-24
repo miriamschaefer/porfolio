@@ -47,6 +47,7 @@ const App = () => {
           about={project.about}
           tags={project.tags}
           goals={project.goals}
+          mockup={project.mockup}
         />
       );
     } else {

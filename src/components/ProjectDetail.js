@@ -38,25 +38,13 @@ const ProjectDetail = (props) => {
           <p>{about}</p>
         </div>
 
-        <div className="main__project__image">
-          <div className="main__project__image__wrapper">
-            <img
-              src={mockup}
-              title={`${name} preview image`}
-              alt={`${name} preview`}
-            />
-          </div>
+        <div className="main__project__mockup">
+          <img
+            src={mockup}
+            title={`${name} preview image`}
+            alt={`${name} preview`}
+          />
         </div>
-
-        <div className="main__project__info">
-          <ul className="main__project__tags">{tags}</ul>
-        </div>
-
-        <div className="main__project__goals">
-          <h4>Main goal</h4>
-          <p>{goals}</p>
-        </div>
-
         <div className="main__project__links">
           <a href={github} alt="Visit Github" target="blank">
             <FontAwesomeIcon icon={faCode} className="icon" />
@@ -64,6 +52,16 @@ const ProjectDetail = (props) => {
           <a href={web} alt="Visit site" target="blank">
             <FontAwesomeIcon icon={faLaptop} className="icon" />
           </a>
+        </div>
+
+        <div className="main__project__goals">
+          <h4>Main goal</h4>
+          <p>{goals}</p>
+        </div>
+
+        <div className="main__project__goals">
+          <h4>Used</h4>
+          <ul className="main__project__tags">{tags}</ul>
         </div>
 
         <div className="main__project__navigation">
