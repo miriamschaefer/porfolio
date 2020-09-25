@@ -15,6 +15,7 @@
   h4 {
     text-align: center;
     padding: 0 10px 10px 10px;
+    // margin-bottom: 0;
     font-family: $font-titles;
     font-size: rem(40);
     background: -webkit-linear-gradient(#fcdf1a, #fe950d, #f84770);
@@ -29,10 +30,6 @@
 
   & p {
     padding: 0 10px 0 10px;
-
-    @include media($tablet) {
-      padding: 0 40px 0 40px;
-    }
   }
 
   &__info {
@@ -45,7 +42,7 @@
     text-align: center;
     font-size: rem(24);
     margin-left: 15%;
-
+    margin-bottom: 25px;
     &__item {
       display: flex;
       align-items: center;
@@ -91,6 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 25px;
     padding-bottom: 25px;
     align-items: center;
 
