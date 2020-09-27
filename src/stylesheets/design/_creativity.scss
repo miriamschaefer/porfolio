@@ -1,10 +1,10 @@
-.main__skills {
+.main__creativity {
   color: $color-light;
   font-family: $font-main;
   text-align: center;
 
   @include media($tablet) {
-    text-align: right;
+    text-align: left;
     margin-right: 40px;
   }
 
@@ -22,7 +22,7 @@
   &__list {
     font-size: rem(26);
     @include media($tablet) {
-      text-align: right;
+      text-align: left;
       font-size: rem(35);
     }
 
@@ -36,8 +36,8 @@
 
       @include media($tablet) {
         text-align: right;
-        flex-direction: row;
         justify-content: flex-end;
+        flex-direction: row-reverse;
       }
 
       &__text {

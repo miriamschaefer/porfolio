@@ -12,8 +12,6 @@
 
     @include media($tablet) {
       font-size: rem(65);
-      text-align: left;
-      margin-left: 40px;
     }
   }
 
@@ -21,6 +19,7 @@
     height: 90px;
     display: flex;
     align-content: center;
+    justify-content: center;
 
     & span {
       white-space: pre-wrap;

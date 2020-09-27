@@ -4,11 +4,13 @@ import '../stylesheets/App.scss';
 import projectsFromApi from '../services/projects.json';
 import ProjectList from './ProjectList';
 import SocialLinks from './SocialLinks';
-import Introduction from './About';
+import Introduction from './Introduction';
 import Skills from './Skills';
 import Stuff from './Stuff';
 import ProjectDetail from './ProjectDetail';
 import Error from './Error';
+import About from './About';
+import Creativity from './Creativity';
 // import Header from './Header';
 
 const App = () => {
@@ -24,6 +26,7 @@ const App = () => {
         <Introduction />
         <ProjectList projects={projectsFromApi} />
         <Skills />
+        <Creativity />
         <Stuff />
         <SocialLinks />
       </main>
@@ -63,7 +66,7 @@ const App = () => {
         <Route exact path="/">
           {getMain}
         </Route>
-
+        <Route exact path="/about" component={About} />
         <Route exact path="/project/:id" render={renderProject} />
       </Switch>
     </React.Fragment>

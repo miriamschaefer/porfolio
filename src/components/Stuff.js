@@ -6,7 +6,7 @@ import TextLoop from 'react-text-loop';
 
 const Stuff = () => {
   return (
-    <Fade left>
+    <Fade right>
       <section className="main__stuff">
         <h2 className="main__stuff__title">Things that really matter</h2>
         <div className="main__stuff__phrase">

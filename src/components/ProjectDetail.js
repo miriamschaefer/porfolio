@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -10,6 +10,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectDetail = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const projectTags = props.tags;
   const tags = projectTags.map((tag, i) => {
     return (

@@ -6,47 +6,69 @@ const Skills = () => {
   return (
     <Fade right>
       <section className="main__skills">
-        <h2 className="main__skills__title">Skills</h2>
+        <h2 className="main__skills__title">Half Coder...</h2>
 
         <ul className="main__skills__list">
           <li className="main__skills__list__item">
-            <p>Javascript</p>
+            <div className="main__skills__list__item__text">
+              <p>Javascript</p>
+            </div>
             <div className="main__skills__list__item__smiley">
               <img src={emoji} alt="emoji" />
             </div>
           </li>
           <li className="main__skills__list__item">
-            <p>React</p>
+            <div className="main__skills__list__item__text">
+              <p>React</p>
+            </div>
             <div className="main__skills__list__item__smiley">
               <img src={emoji} alt="emoji" />
             </div>
           </li>
           <li className="main__skills__list__item">
-            <p>HTML5</p>
+            <div className="main__skills__list__item__text">
+              <p>HTML5</p>
+            </div>
             <div className="main__skills__list__item__smiley">
               <img src={emoji} alt="emoji" />
             </div>
           </li>
           <li className="main__skills__list__item">
-            <p>CSS3</p>
+            <div className="main__skills__list__item__text">
+              <p>CSS3</p>
+            </div>
             <div className="main__skills__list__item__smiley">
               <img src={emoji} alt="emoji" />
             </div>
           </li>
           <li className="main__skills__list__item">
-            <p>SASS</p>
+            <div className="main__skills__list__item__text">
+              <p>SASS</p>
+            </div>
             <div className="main__skills__list__item__smiley">
               <img src={emoji} alt="emoji" />
             </div>
           </li>
           <li className="main__skills__list__item">
-            <p>GULP</p>
+            <div className="main__skills__list__item__text">
+              <p>GULP</p>
+            </div>
             <div className="main__skills__list__item__smiley">
               <img src={emoji} alt="emoji" />
             </div>
           </li>
           <li className="main__skills__list__item">
-            <p>Git</p>
+            <div className="main__skills__list__item__text">
+              <p>Git</p>
+            </div>
+            <div className="main__skills__list__item__smiley">
+              <img src={emoji} alt="emoji" />
+            </div>
+          </li>
+          <li className="main__skills__list__item">
+            <div className="main__skills__list__item__text">
+              <p>Saying: 'I swear this worked before'</p>
+            </div>
             <div className="main__skills__list__item__smiley">
               <img src={emoji} alt="emoji" />
             </div>
