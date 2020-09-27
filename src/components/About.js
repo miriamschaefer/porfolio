@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const Introduction = () => {
   return (
     <div className="main__about">
       <h1 className="main__about__title">
@@ -26,4 +26,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Introduction;

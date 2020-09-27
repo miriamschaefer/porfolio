@@ -1,7 +1,9 @@
 .main__stuff {
-  color: $color-light;
   text-align: center;
-  margin: 0 25px 0 25px;
+  color: $color-light;
+  font-family: $font-main;
+  font-size: rem(25);
+  margin: 0 15px 0 15px;
 
   &__title {
     font-family: $font-titles;
@@ -15,42 +17,31 @@
     }
   }
 
-  &__list {
-    text-align: center;
-    font-family: $font-main;
-    font-size: rem(22);
-    line-height: 2rem;
-    text-align: left;
-    @include media($tablet) {
-      text-align: right;
-      font-size: rem(30);
-      margin-left: 40px;
-    }
+  &__phrase {
+    height: 90px;
+    display: flex;
+    align-content: center;
 
-    &__item {
-      margin-bottom: 3px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
+    & span {
+      white-space: pre-wrap;
 
       @include media($tablet) {
-        text-align: left;
-        justify-content: left;
+        white-space: nowrap;
       }
+    }
 
-      & p {
-        margin: 0;
+    &__icon {
+      flex-shrink: 0;
+      width: 30px;
+      margin: 0 10px 0 10px;
+
+      & img {
+        width: 100%;
       }
-
-      &__icon {
-        flex-shrink: 0;
-        width: 30px;
-        margin: 0 10px 0 10px;
-
-        & img {
-          width: 100%;
-        }
-      }
+    }
+    &__link {
+      display: table;
+      margin: 0 auto;
     }
   }
 }

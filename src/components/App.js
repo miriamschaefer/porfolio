@@ -4,7 +4,7 @@ import '../stylesheets/App.scss';
 import projectsFromApi from '../services/projects.json';
 import ProjectList from './ProjectList';
 import SocialLinks from './SocialLinks';
-import About from './About';
+import Introduction from './About';
 import Skills from './Skills';
 import Stuff from './Stuff';
 import ProjectDetail from './ProjectDetail';
@@ -21,7 +21,7 @@ const App = () => {
   const getMain = () => {
     return (
       <main className="main wrapper">
-        <About />
+        <Introduction />
         <ProjectList projects={projectsFromApi} />
         <Skills />
         <Stuff />
