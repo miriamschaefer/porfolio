@@ -45,3 +45,15 @@
     }
   }
 }
+
+.pruebacentrado {
+  width: 500px;
+  top: 30%;
+  left: 70%;
+  position: absolute;
+  z-index: -1;
+
+  & img {
+    width: 100%;
+  }
+}
