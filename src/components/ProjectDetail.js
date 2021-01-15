@@ -28,6 +28,11 @@ const ProjectDetail = (props) => {
     <main className="main background-change">
       <section className="main__project">
         <div className="main__project__image background-animation">
+          <nav className="home-icon">
+            <Link to="/">
+              <FontAwesomeIcon icon={faHome} />
+            </Link>
+        </nav>
           <div className="main__project__image__wrapper">
             <img
               src={image}

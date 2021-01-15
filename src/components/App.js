@@ -11,7 +11,7 @@ import ProjectDetail from './ProjectDetail';
 import Error from './Error';
 import About from './About';
 import Creativity from './Creativity';
-// import Header from './Header';
+import Header from './Header';
 
 const App = () => {
   const [projects, setProjects] = useState([]);
@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-      {/* <Header /> */}
+      <Header />
 
       <Switch>
         <Route exact path="/">

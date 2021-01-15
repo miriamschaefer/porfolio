@@ -57,13 +57,17 @@
 }
 
 .show-image {
-  width: 550px;
-  top: 30%;
-  left: 50%;
-  position: absolute;
-  z-index: -1;
+  display: none;
+  @include media($tablet) {
+    display: inline;
+    width: 550px;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    z-index: -1;
 
-  & img {
-    width: 100%;
+    & img {
+      width: 100%;
+    }
   }
 }

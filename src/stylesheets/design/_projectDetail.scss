@@ -1,3 +1,15 @@
+.background-change {
+  background-color: $color-light;
+}
+
+.home-icon {
+  color: $color-light;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: rem(25);
+}
+
 .main__project {
   font-family: $font-projects;
   color: $color-medium;
@@ -15,7 +27,6 @@
   h4 {
     text-align: center;
     padding: 0 10px 10px 10px;
-    // margin-bottom: 0;
     font-family: $font-titles;
     font-size: rem(40);
     background: -webkit-linear-gradient(#fcdf1a, #fe950d, #f84770);
@@ -84,17 +95,17 @@
   }
 
   &__navigation {
+    font-size: rem(25);
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
     align-items: center;
 
     & .icon {
-      font-size: rem(18);
-      margin: 0 10px 0 10px;
+      font-size: rem(30);
+      margin: 0 20px 0 20px;
     }
   }
 
@@ -130,8 +141,4 @@
       width: 100%;
     }
   }
-}
-
-.background-change {
-  background-color: $color-light;
 }
