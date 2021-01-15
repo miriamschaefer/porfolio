@@ -13,9 +13,9 @@ const Project = (props) => {
       id={id}
       onMouseEnter={() => setIsShown(true)}
       onMouseLeave={() => setIsShown(false)}>
-        {name}
+        <span role="img" aria-label="sparks emoji">✨</span> {name}
         {isShown && (
-          <div className="pruebacentrado">
+          <div className="show-image">
         <img src={image} alt={name} />
         </div>
         )}

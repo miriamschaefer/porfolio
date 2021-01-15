@@ -9,12 +9,21 @@
   position: relative;
   color: $color-light;
 
+  @include media($tablet) {
+    align-items: flex-start;
+  }
+
   &__text {
     font-family: $font-secondary;
     color: $color-light;
     text-align: center;
     font-size: rem(18);
     margin: 15px 20px 0 20px;
+
+    & a {
+      text-decoration-line: none !important ;
+      text-decoration-style: none;
+    }
   }
 
   &__img {
@@ -42,14 +51,15 @@
 
     @include media($tablet) {
       font-size: rem(50);
+      text-align: left;
     }
   }
 }
 
-.pruebacentrado {
-  width: 500px;
+.show-image {
+  width: 550px;
   top: 30%;
-  left: 70%;
+  left: 50%;
   position: absolute;
   z-index: -1;
 

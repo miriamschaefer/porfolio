@@ -15,7 +15,7 @@ class SocialLinks extends Component {
         <a
           href="mailto:msuarezmelian@gmail.com"
           alt="Email me!"
-          className="social__email"
+          className="social__email styled-link"
         >
           msuarezmelian@gmail.com
         </a>
